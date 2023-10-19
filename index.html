@@ -3,8 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <a href="http://"></a>
+    <link rel="stylesheet" href="style.css" />
+    <title>peliculas</title>
   </head>
-  <body></body>
+  <body>
+    <div class="layout">
+      <header class="header">
+        <div class="logo">
+          <div class="icono"></div>
+        </div>
+        <center>
+          <blockquote>
+            <h1 class="title">Mis peliculas <br /></h1>
+          </blockquote>
+        </center>
+      </header>
+      <nav class="menu">
+        <ul class="items">
+          <li class="item"><a href="#"> Inicio </a></li>
+          <li class="item"><a href="#"> peliculas </a></li>
+          <li class="item"><a href="#"> Blog </a></li>
+          <li class="item"><a href="#"> Contacto </a></li>
+        </ul>
+      </nav>
+      <section class="content">
+        <article class="pelicula">
+          <h1 class="title">Titulo 1</h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipsicing elit. Veo, qui
+          </p>
+          <div class="group">
+            <button class="edit">Editar</button>
+            <button class="delete">Borrar</button>
+          </div>
+        </article>
+      </section>
+      <aside class="lateral">
+        <section class="buscador">
+          <h1>Buscador</h1>
+          <form>
+            <input type="text" />
+            <input type="button" value="Buscar" />
+          </form>
+        </section>
+        <section class="añadir peliculas">
+          <h1>Añadir Peliculas</h1>
+          <form>
+            <input type="text" placeholder="Titulo" />
+            <textarea placeholder="Description"></textarea>
+            <input type="submit" value="Guardar" />
+          </form>
+        </section>
+      </aside>
+      <footer class="footer">&copy Proyecto En React</footer>
+    </div>
+  </body>
 </html>
